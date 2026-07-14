@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "config/BBEConfig.json"
-hash = "e5f2ee57e9f9c0bd81af26c1918ceee988b3d726014c411f439406dc0fe60ef1"
-
-[[files]]
 file = "config/fabric_loader_dependencies.json"
 hash = "a3bacfc307a074ca194f17b5b508ddfb371087c868e8dbc5455510d3cfca7c3c"
 
@@ -133,7 +129,7 @@ metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
-hash = "ae6c5e5b1b7310cd9484fd5b197f5c3e06f4dc96648439f9b22a9aff40700bd3"
+hash = "a4c2d3de068fd3c2c9da27791bab8390ca00a3db6fd31f79eb89c1e79dc7e7b8"
 metafile = true
 
 [[files]]
@@ -168,7 +164,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "9e7bacd24307639764f3b74ae35a562b6becf2701637b816de0eaae15ab714c0"
+hash = "9cb9fbb7431ed58a8bb7bf25d1b9fcc8706fc57400db7acffef06e25971552fa"
 metafile = true
 
 [[files]]
@@ -178,12 +174,7 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "28969e04d6b9eae771050efd44f65565e76c8525434e50b1e3ce1d8b10fa579c"
-metafile = true
-
-[[files]]
-file = "mods/krypton.pw.toml"
-hash = "a96558d4114019b01947a9ee8f128331a17c9ce94f9b25a2a5c39d3985e67043"
+hash = "4f7bf268d190e2881fee00d933f716fa683768d912bbf44211c97f740444dbb0"
 metafile = true
 
 [[files]]
@@ -203,7 +194,7 @@ metafile = true
 
 [[files]]
 file = "mods/modmenu.pw.toml"
-hash = "c3069d6c3ef1d13c9ba064824777c4d74dd504cad358cb0b6f06f6266fc143c8"
+hash = "04161fe0dcb23469df8b66dba353592f0e5c4ea4f64b2f7a1636033ccdb9e351"
 metafile = true
 
 [[files]]
@@ -233,7 +224,7 @@ metafile = true
 
 [[files]]
 file = "mods/polytone.pw.toml"
-hash = "5d673e5a10f55cbdcb93fbd456dd27a6d2df3d8ba2f64f9d6751374826162f4c"
+hash = "50c5f359691b753d86ea15059db508e1454fa0fc1d03f82068b2ab363f00132e"
 metafile = true
 
 [[files]]
@@ -243,7 +234,7 @@ metafile = true
 
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
-hash = "565c943b5006c36137a2fe55e4b8433e134c3d1011a37c5f5124cee67b671cb8"
+hash = "2785ba5d979ac4f95421a3df7b54ecf2a10e616eb566769388e643a5e91f396b"
 metafile = true
 
 [[files]]
@@ -258,7 +249,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "986e43ff06d2a79effec6e219aca063d7b53a98096c5f63983f23cf54c11c7e5"
+hash = "3c5cbbf4755a6a7c0f4f61a243dc6198674f9e2e72faf7d30cc45a3bca3f28a8"
 metafile = true
 
 [[files]]
@@ -298,4 +289,4 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/drydock.zip"
-hash = "0ef791bf19bc68d813dd587f6505b20e1165c4b0f883a7fad7498a65f449fda9"
+hash = "4e6c87f39b57328934fae07e5d67cfdc498f74d7ce0e80471d6585f3fdd72664"

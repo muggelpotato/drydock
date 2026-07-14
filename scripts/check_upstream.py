@@ -30,6 +30,9 @@ def generate_html_report(last, latest, pathspecs):
         old = [l for l in run_git(["show", f"{last}:{f}"], check=False).splitlines() if not any(x in l for x in ["hash =", "url =", "hash-format ="])]
         new = [l for l in run_git(["show", f"{latest}:{f}"], check=False).splitlines() if not any(x in l for x in ["hash =", "url =", "hash-format ="])]
         
+        if old == new:
+            continue
+            
         table = difflib.HtmlDiff().make_table(old, new, fromdesc=f"{last[:10]}/{f}", todesc=f"{latest[:10]}/{f}", context=True, numlines=3)
         table = re.sub(
             r'(?:\s*<colgroup>\s*</colgroup>)+',
@@ -37,6 +40,9 @@ def generate_html_report(last, latest, pathspecs):
             table
         )
         html_tables.append(f"<h2>{f}</h2>\n{table}")
+
+    if not html_tables:
+        return False
 
     css = """
     body { font-family: sans-serif; padding: 20px; background: #1e1e1e; color: #d4d4d4; }
@@ -101,3 +107,6 @@ if os.path.exists(IGNORE_FILE):
 
 if generate_html_report(last, latest, pathspecs):
     print(f"\nTo mark these changes as reviewed, run: python {os.path.relpath(__file__, os.getcwd())} --ack")
+else:
+    print(f"\nNo meaningful changes found between {last[:10]} and {latest[:10]} (only hashes/urls might have changed).")
+    print(f"To mark as reviewed, run: python {os.path.relpath(__file__, os.getcwd())} --ack")
