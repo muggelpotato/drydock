@@ -1,23 +1,19 @@
 <div align="center">
-<img src="https://raw.githubusercontent.com/muggelpotato/drydock-modpack/main/pack/icon.png" alt="Drydock logo" width="10%" height="10%">
+<img src="icon.png" alt="Drydock logo" width="10%" height="10%">
 
 # Drydock
-This repo is hosting a modpack for the boatracing server called "The Drydock"
+This monorepo is hosting assets for the boatracing server called "The Drydock"
 
 </div>
 
-## Flavors
-Drydock Player
-- Fabulosuly Optimized mods and configs
-- Mods and resourcepacks required to play on the server
-
-Drydock Builder
-- Inherits all of Drydock Player contents
-- Adds building and utility mods
-
+## Content
+- Modpack: [Fabulously Optimized](https://github.com/Fabulously-Optimized/fabulously-optimized) + utility/building mods + Drydock resourcepack and configs
+- Resourcepack: custom UI for BoatHud/Axiom, CEM boat models, item models, sounds, textures and misc
+- Discord: Script and assets to send a V2 component
 ## Suggestions
-If you are a player or builder of the server and want to suggest mods to be added, create a GitHub issue
+If you are a player of the server and want to suggest changes, create a GitHub issue
 
 ## Credits
-The Modpack is built upon [Fabulously Optimized](https://github.com/Fabulously-Optimized/fabulously-optimized)  
-The Modpack is using [More Culling](https://github.com/fxmorin/moreculling) by FxMorin
+The modpack is built upon [Fabulously Optimized](https://github.com/Fabulously-Optimized/fabulously-optimized)  
+The modpack is using [More Culling](https://github.com/fxmorin/moreculling) by FxMorin
+The resourcepack modifies existing sprites from Axiom/BoatHud

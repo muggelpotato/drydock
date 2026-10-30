@@ -1,0 +1,39 @@
+{
+  "capabilities": {
+    "bulldozer": true,
+    "typeReplace": true,
+    "forcePlace": true,
+    "noUpdates": true,
+    "noClip": true,
+    "phantom": true
+  },
+  "blockAttributes": {
+    "showStructureVoidBlocks": true,
+    "showMovingPistonBlocks": true
+  },
+  "editor": {
+    "clearToolWhenSwapping": false
+  },
+  "blueprint": {
+    "recursiveSearch": true
+  },
+  "internal": {
+    "showOpenConfigTip": false,
+    "showOpenContextMenuTip": false,
+    "showOpenEditorTip": false,
+    "completedTutorials": [
+      "introduction",
+      "selection",
+      "box_select_tool",
+      "sculpt_draw_tool",
+      "slope_tool",
+      "magic_select_tool",
+      "clentaminator"
+    ],
+    "globalScale": 1.0,
+    "savedCustomTheme": "ASel0ADExpZ2h0IFB1cnBsZQlJbUd1aURhcmseB4o2MjIIZjYyMgmrNjIyCv8+OjoL/z46Og3/NjIyD/82MjIQ/+yY0xH/w1ChEv/smNMT/8NQoRT/7JjTFf8+OjoW/+yY0xf/w1ChGE8+OjoZzOyY0xr/w1ChHMfsmNMd/8NQoR4zw1ChH6vsmNMg8rhLmCHcw1ChIszsmNMj/+yY0yT4AAAAJf/DUKEms+yY0yf/NjIyBwAAAAAAAQAAAAAFQSAAAAdBIAAACEDAAAAJQMAAAAtAwAAA",
+    "showToolMaskOpenWarning": false,
+    "pickBlockDrag": true,
+    "cutAlsoCopiesToClipboard": true
+  }
+}

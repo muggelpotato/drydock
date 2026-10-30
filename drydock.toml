@@ -1,0 +1,19 @@
+minecraft = "1.21.11"
+
+[modpack]
+name = "Drydock"
+version = "1.1.0"
+
+# Fabulously Optimized mods/configs to leave out
+exclude = [ # partial matching
+  "bbeconfig", "bettergrass", "bettermounthud", "cape-provider", "chat_reporting_helper", "controlify",
+  "crash_assistant", "dynamic_fps", "fabrishot", "fastquit", "forgeconfigapiport", "languagereload",
+  "main-menu-credits", "mixintrace", "mod menu helper", "nochatreports", "paginatedadvancements", "rrls",
+  "skyboxify", "translations_for_sodium",
+]
+
+# modrinth.com/mod/ <slug> || <slug>/version/<ID>
+mods = [
+  "axiom", "boathud", "controlling", "flashback", "nbt-autocomplete", "openboatutils", "rei",
+  "simple-music-control", "spark", "voxy", "voxy-server-side", "worldedit", "worldedit-cui", "xaeros-world-map",
+]

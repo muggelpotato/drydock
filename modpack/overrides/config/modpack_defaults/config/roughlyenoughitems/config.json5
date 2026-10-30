@@ -1,0 +1,15 @@
+{
+    "basics": {
+        "cheating": true
+    },
+    "appearance": {
+        "theme": "DARK",
+        "layout": {
+            "showCraftableOnlyButton": false
+        }
+    },
+    "functionality": {
+        "disableRecipeBook": true,
+        "leftSideMobEffects": true
+    }
+}

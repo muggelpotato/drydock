@@ -1,6 +1,3 @@
-*.jar
-*.mrpack
-.packwiz/
-.antigravitycli/
+build/
 .env
-*.html
+CLAUDE.md

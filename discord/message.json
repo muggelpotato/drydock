@@ -1,0 +1,162 @@
+{
+  "username": "Drydock",
+  "avatar_url": "https://raw.githubusercontent.com/muggelpotato/drydock/main/icon.png",
+  "flags": 32768,
+  "attachments": [{ "id": 0, "filename": "boatspin.webp" }],
+  "components": [
+    {
+      "type": 12,
+      "items": [
+        {
+          "media": {
+            "url": "attachment://boatspin.webp"
+          }
+        }
+      ]
+    },
+    {
+      "type": 17,
+      "accent_color": 6055679,
+      "components": [
+        {
+          "type": 10,
+          "content": "## <:drydock:1510755744486522880> **Welcome to The Drydock**\n\nA minecraft boatracing server with a strong focus on building"
+        }
+      ]
+    },
+    {
+      "type": 17,
+      "accent_color": 3388927,
+      "components": [
+        {
+          "type": 10,
+          "content": "### <:mc_earth:589630396476555264> **Server Details**\n\n**Version**: {minecraft} ```boatracing.mc.0x53.net```"
+        }
+      ]
+    },
+    {
+      "type": 17,
+      "accent_color": 3388927,
+      "components": [
+        {
+          "type": 10,
+          "content": "### <:command_block_r:633236735819776000> **Downloads**"
+        },
+        {
+          "type": 10,
+          "content": "**Required**"
+        },
+        {
+          "type": 1,
+          "components": [
+            {
+              "type": 2,
+              "style": 5,
+              "label": "Modpack",
+              "url": "https://modrinth.com/modpack/drydock",
+              "emoji": {
+                "name": "modrinth",
+                "id": "1043183149821202492"
+              }
+            }
+          ]
+        },
+        {
+          "type": 14
+        },
+        {
+          "type": 10,
+          "content": "**Optional**"
+        },
+        {
+          "type": 1,
+          "components": [
+            {
+              "type": 2,
+              "style": 5,
+              "label": "Resourcepack",
+              "url": "https://github.com/muggelpotato/drydock/tree/main/resourcepack",
+              "emoji": {
+                "name": "github",
+                "id": "1549471169877377155"
+              }
+            },
+            {
+              "type": 2,
+              "style": 5,
+              "label": "Disabled Link",
+              "url": "https://example.com/",
+              "disabled": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": 17,
+      "accent_color": 6055679,
+      "components": [
+        {
+          "type": 10,
+          "content": "### <a:chatting:867748415555239988> **Discord**\n> <#1505521137789177896> for server news\n> <#1218694464084901928> for showcasing pictures of your builds on the server\n> <#1217151251318575224> for chatting\n> <#1238566692028678237> for saving/sharing build references"
+        }
+      ]
+    },
+    {
+      "type": 17,
+      "accent_color": 3388927,
+      "components": [
+        {
+          "type": 10,
+          "content": "### **Important for builders**\n\nThe servers map is planned to be released **for free**.\n> Please dont use **paid assets** on the server."
+        }
+      ]
+    },
+    {
+      "type": 17,
+      "accent_color": 6055679,
+      "components": [
+        {
+          "type": 10,
+          "content": "### **Projects I'm working on**\n"
+        },
+        {
+          "type": 14
+        },
+        {
+          "type": 9,
+          "components": [
+            {
+              "type": 10,
+              "content": "**Wake**\nThe Paper plugin powering the unique features of the server.\nIt currently adds OBU support with a custom command interface and some utility commands for server administration."
+            }
+          ],
+          "accessory": {
+            "type": 2,
+            "style": 5,
+            "label": "Open GitHub",
+            "url": "https://github.com/muggelpotato/wake"
+          }
+        },
+        {
+          "type": 14
+        },
+        {
+          "type": 9,
+          "components": [
+            {
+              "type": 10,
+              "content": "**Drydock**\nA monorepo holding the modpack and resourcepack for the server.\nFeel free to open pull requests if you want to add new mods, configs or features like custom item models."
+            }
+          ],
+          "accessory": {
+            "type": 2,
+            "style": 5,
+            "label": "Open GitHub",
+            "url": "https://github.com/muggelpotato/drydock"
+          }
+        }
+      ]
+    }
+  ]
+}
