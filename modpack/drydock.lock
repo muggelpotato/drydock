@@ -6,6 +6,7 @@ fabric = "0.20.1"
 [mods]
 "architectury-api" = "uNdfrcQ8"
 "axiom" = "Q2kpeC5q"
+"better-clouds" = "tfuzaCjw"
 "boathud" = "SZXlgmdR"
 "controlling" = "A6W4m3vi"
 "flashback" = "JTAZ57qO"
