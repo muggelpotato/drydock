@@ -17,3 +17,10 @@ mods = [
   "axiom", "better-clouds", "boathud", "controlling", "flashback", "nbt-autocomplete", "openboatutils", "rei",
   "simple-music-control", "spark", "voxy", "voxy-server-side", "worldedit", "worldedit-cui", "xaeros-world-map",
 ]
+
+[resourcepack]
+version = "1.0.0"
+# pack.mcmeta
+description = "Chub Chub"
+min_format = 69 # 1.21.9
+max_format = 88 # 26.2

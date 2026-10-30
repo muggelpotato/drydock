@@ -75,7 +75,7 @@
               "type": 2,
               "style": 5,
               "label": "Resourcepack",
-              "url": "https://github.com/muggelpotato/drydock/tree/main/resourcepack",
+              "url": "https://github.com/muggelpotato/drydock/releases/latest/download/drydock.zip",
               "emoji": {
                 "name": "github",
                 "id": "1549471169877377155"

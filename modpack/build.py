@@ -1,4 +1,4 @@
-# Fabulously Optimized + drydock.toml + modpack/overrides/
+# Fabulously Optimized + drydock.toml + modpack/overrides/ + resourcepack/
 # --update updates addon mods to their latest versions, unless pinned in drydock.toml
 import json
 import shutil
@@ -76,6 +76,7 @@ for src in OVERRIDES.rglob("*"):
     else:
         shutil.copyfile(src, dst)
 shutil.copyfile(ROOT / "icon.png", PACK / "icon.png")
+subprocess.run([sys.executable, ROOT / "resourcepack" / "build.py", PACK / "resourcepacks" / "drydock.zip"], check=True)
 
 packwiz("refresh")
 fo_metafiles = {p: p.read_bytes() for p in PACK.rglob("*.pw.toml")}
