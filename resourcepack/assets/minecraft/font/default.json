@@ -1,0 +1,13 @@
+{
+    "providers": [
+      {
+        "type": "bitmap",
+        "file": "muggel:font/squid.png",
+        "height": 64,
+        "ascent": 27,
+        "chars": [
+          "\uEff1"
+        ]
+      }
+    ]
+  }

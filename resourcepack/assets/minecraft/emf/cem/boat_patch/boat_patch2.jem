@@ -1,0 +1,13 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [128, 64],
+	"models": [
+		{
+			"part": "water_patch",
+			"id": "water_patch",
+			"boxes": [
+				{"coordinates": [0, 0, 0, 0.01, 0.01, 0.01], "textureOffset": [0, 0]}
+			]
+		}
+	]
+}

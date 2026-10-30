@@ -1,0 +1,10 @@
+{
+    "chubchub": {
+        "sounds": [
+         {
+         "name":"muggel:custom/chubchub",
+         "stream": false
+         }
+        ]
+    }
+}
