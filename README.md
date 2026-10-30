@@ -15,5 +15,5 @@ If you are a player of the server and want to suggest changes, create a GitHub i
 
 ## Credits
 The modpack is built upon [Fabulously Optimized](https://github.com/Fabulously-Optimized/fabulously-optimized)  
-The modpack is using [More Culling](https://github.com/fxmorin/moreculling) by FxMorin
-The resourcepack modifies existing sprites from Axiom/BoatHud
+The modpack is using [More Culling](https://github.com/fxmorin/moreculling) by FxMorin  
+The resourcepack modifies existing sprites from Axiom/[BoatHud](https://github.com/Hibiii/BoatHud)
